@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.leftBox {
+    width: 40%;
+    height: 600px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.leftBox img {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.RightBox {
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    left: 700px;
+    top: 50px;
+}
+
+.RightBox h1 {
+    font-family: sans-serif;
+    margin-top: 90px;
+}
+
+.RightBox h1 span {
+    color: springgreen;
+}
+
+.RightBox p {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.RightBox .btn {
+    width: 360px;
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: text;
+}
+
+.btn span {
+    color: springgreen;
+}
